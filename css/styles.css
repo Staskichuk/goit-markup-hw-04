@@ -121,6 +121,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-address:hover {
@@ -271,6 +272,11 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
+.list-team:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .title-section-three {
   font-size: 20px;
   font-weight: 500;
@@ -295,11 +301,10 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  cursor: pointer;
 }
 
 .name-employee-position {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .position-three {
@@ -367,6 +372,8 @@ p {
 
 .list-item-our-portfolio:hover {
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .application-names-categories {
