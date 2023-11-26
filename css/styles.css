@@ -320,7 +320,6 @@ p {
 .social-icon-list {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-item-link {
@@ -335,6 +334,7 @@ p {
 
 .social-icon-item-link:hover {
   background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-item-link:focus {
@@ -501,11 +501,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-item-link-footer:hover {
   background-color: #31d0aa;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-item-link-footer:focus {
