@@ -493,6 +493,7 @@ p {
 .social-icon-list-footer {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-item-link-footer {
@@ -507,12 +508,12 @@ p {
 
 .social-icon-item-link-footer:hover {
   background-color: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-item-link-footer:focus {
   background-color: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon-item-footer {
